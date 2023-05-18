@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: #d81d1d;
+}
+
+
+.cart {
+    position: relative;
+
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.cart-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #d81d1d;
+}
+
+.phone-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #894b17;
+}
+
+
+.register{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    transition: color 0.3s linear;
+}
+.register:hover{
+      color: #d81d1d;
+}
+.regis{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+   transition: color 0.3s linear;
+}
+.regis:hover{
+     color: #d81d1d;
+}
+.sertifikat{
+    color: #fff;
+    font-size: 32px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-weight: 700;
+   
+ 
+}
+.sertifikat span{
+    color:darkorange;
+}
+.sertifikat:before{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width:421px;
+    background-color: #fff;
+    top: 297px;
+    left: 725px;
+}
+.title{
+    color: #fff;
+    font-size: 25px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-weight: 700;
+}
+.sertifikat1{
+     gap:30px;
+    text-align: center;
+    margin-top: 50px; 
+    
+    justify-content: center;
+
+    
+    display: flex;
+}
+
+.sertifikat-text>a>span {
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+.sertifikat-text>a>span:hover{
+        color: #d81d1d;
+}
+.sertifikat-text>a{
+    text-decoration: none;
+}
